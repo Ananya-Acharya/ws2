@@ -1,0 +1,8 @@
+
+details of verified and unverified reviews in amazon_reviews_us_Books_v1_02.tsv
+
+line count, word count, and byte count for verified reviews
+   229347  44403448 262431531 verified.txt
+
+line count, word count, and byte count for unverified reviews
+   2876174  505766888 2976274217 unverified.txt

@@ -1,0 +1,11 @@
+    1  cd ws2
+    2  gunzip -k amazon_reviews_us_Books_v1_02.tsv.gz 
+    3  grep -P "\tY\t" amazon_reviews_us_Books_v1_02.tsv > verified.txt
+    4  grep -P "\tN\tN\t" amazon_reviews_us_Books_v1_02.tsv > unverified.txt
+    5  grep -P "\tY\tN\t" amazon_reviews_us_Books_v1_02.tsv >> unverified.txt 
+    6  wc verified.txt > counts.txt
+    7  wc unverified.txt >> counts.txt
+    8  head counts.txt
+    9  vi counts.txt
+   10  head counts.txt
+   11  history > cmds.log
