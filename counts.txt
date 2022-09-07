@@ -6,3 +6,5 @@ line count, word count, and byte count for verified reviews
 
 line count, word count, and byte count for unverified reviews
    2876174  505766888 2976274217 unverified.txt
+
+There are 229347 verified reviews and 2876174 unverified reviews.
